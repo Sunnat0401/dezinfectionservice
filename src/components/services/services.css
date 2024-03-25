@@ -1,0 +1,33 @@
+.container{
+    max-width: 1560px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+ }
+ .services-wrapper{
+    width: 100%;
+    /* padding: 20px 10px; */
+    border: 2.3px solid #020c315d;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+ }
+ .services-info h1{
+   color: #020202;
+ }
+ .services-wrapper img{
+    width: 300px ;
+        height: 300px;
+        object-fit: cover; 
+ }
+ .services-card{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ .service-card__right{
+    width: 50%;
+ }
